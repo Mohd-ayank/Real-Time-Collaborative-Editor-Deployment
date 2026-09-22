@@ -26,12 +26,25 @@ During load and performance testing on live AWS infrastructure, this application
 ## Screenshots
 
 <p align="center">
-  <img src="./screenshots/screenshot-1.png" width="45%" alt="Multi-cursor live editing" />
-  <img src="./screenshots/screenshot-2.png" width="45%" alt="Collaborative session view" />
+  <img src="./screenshots/app_screenshot.png" width="45%" alt="Multi-cursor live editing" />
+  <br/>
+  <b>Live multi-cursor collaborative editing</b>
+</p>
+
+<p align="center">
+  <img src="./screenshots/ECR.png" width="45%" alt="ECR image pushed" />
+  <img src="./screenshots/cluster_and_service_name.png" width="45%" alt="Cluster and Services" />
 </p>
 <p align="center">
-  <img src="./screenshots/screenshot-3.png" width="45%" alt="Language support and syntax highlighting" />
-  <img src="./screenshots/screenshot-4.png" width="45%" alt="Presence indicators" />
+  <b>Docker image pushed to ECR</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>ECS Cluster & Service running</b>
+</p>
+
+<p align="center">
+  <img src="./screenshots/cpu_memory_utilization.png" width="45%" alt="Graph cpu and memory utilization of the service" />
+  <img src="./screenshots/target_response_time.png" width="45%" alt="Target response time of ALB" />
+</p>
+<p align="center">
+  <b>CPU & memory utilization (CloudWatch)</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>ALB target response time</b>
 </p>
 
 ## Tech Stack & Architecture
